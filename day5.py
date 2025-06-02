@@ -7,7 +7,7 @@ def study_time_tracker(hours_list):
     average_hours_studied = total_hours_studied/no_of_hours_studied
     return total_hours_studied,average_hours_studied
 
-hours_list = [1,2,3,3,2,1,4]
+hours_list = [1,2,3,3,2,3,4]
 total_hours_studied,average_hours_studied = study_time_tracker(hours_list)
 print(f"Total hours studied this week: {total_hours_studied}")
 print(f"Average hours per day: {average_hours_studied:.2f}")
