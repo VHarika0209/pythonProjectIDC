@@ -18,5 +18,5 @@ car2 = Car("Tesla", "Model 3", 2023, "White")
 
 # Displaying info
 car1.display_info()
-print()
+# print()
 car2.display_info()
