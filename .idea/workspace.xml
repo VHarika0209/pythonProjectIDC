@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="commiting day 9 file - OOP part2 - Extend Car">
-      <change afterPath="$PROJECT_DIR$/day10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/day10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/day10InputFile.txt" afterDir="false" />
+    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="commiting day 10 file - Exception Handling">
+      <change afterPath="$PROJECT_DIR$/day11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +51,7 @@
   "keyToString": {
     "Python.day1.executor": "Run",
     "Python.day10.executor": "Run",
+    "Python.day11.executor": "Run",
     "Python.day2.executor": "Run",
     "Python.day3.executor": "Run",
     "Python.day4.executor": "Run",
@@ -64,10 +63,10 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "configurable.group.project"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.day10">
+  <component name="RunManager" selected="Python.day11">
     <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day11" />
         <item itemvalue="Python.day10" />
         <item itemvalue="Python.day9" />
         <item itemvalue="Python.day8" />
         <item itemvalue="Python.day7" />
-        <item itemvalue="Python.day5" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749156683330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commiting day 10 file - Exception Handling">
+      <option name="closed" value="true" />
+      <created>1749225662143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749225662144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +283,8 @@
     <MESSAGE value="commiting day 7 file" />
     <MESSAGE value="commiting day 8 file" />
     <MESSAGE value="commiting day 9 file - OOP part2 - Extend Car" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting day 9 file - OOP part2 - Extend Car" />
+    <MESSAGE value="commiting day 10 file - Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting day 10 file - Exception Handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
