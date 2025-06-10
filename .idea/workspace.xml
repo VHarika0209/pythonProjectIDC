@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="commiting day 11 file - Dates and Time - Experience Calculator.">
-      <change afterPath="$PROJECT_DIR$/day12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="update workspace and changelist for day 12 - regular expressions - validate gmail address" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +49,7 @@
     &quot;Python.day1.executor&quot;: &quot;Run&quot;,
     &quot;Python.day10.executor&quot;: &quot;Run&quot;,
     &quot;Python.day11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day12.executor&quot;: &quot;Run&quot;,
     &quot;Python.day2.executor&quot;: &quot;Run&quot;,
     &quot;Python.day3.executor&quot;: &quot;Run&quot;,
     &quot;Python.day4.executor&quot;: &quot;Run&quot;,
@@ -66,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.day12">
+  <component name="RunManager" selected="Python.day13">
     <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -133,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day13" />
         <item itemvalue="Python.day12" />
         <item itemvalue="Python.day11" />
         <item itemvalue="Python.day10" />
         <item itemvalue="Python.day9" />
-        <item itemvalue="Python.day8" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749492456947</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update workspace and changelist for day 12 - regular expressions - validate gmail address">
+      <option name="closed" value="true" />
+      <created>1749505140687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749505140687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +299,8 @@
     <MESSAGE value="commiting day 9 file - OOP part2 - Extend Car" />
     <MESSAGE value="commiting day 10 file - Exception Handling" />
     <MESSAGE value="commiting day 11 file - Dates and Time - Experience Calculator." />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting day 11 file - Dates and Time - Experience Calculator." />
+    <MESSAGE value="update workspace and changelist for day 12 - regular expressions - validate gmail address" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace and changelist for day 12 - regular expressions - validate gmail address" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
