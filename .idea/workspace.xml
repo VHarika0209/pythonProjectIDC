@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="update workspace and changelist for day 12 - regular expressions - validate gmail address">
-      <change afterPath="$PROJECT_DIR$/day14.py" afterDir="false" />
+    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="day 14 - Recursive functions - Calculate factorial recursively">
+      <change afterPath="$PROJECT_DIR$/day15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Python.day12.executor": "Run",
     "Python.day13.executor": "Run",
     "Python.day14.executor": "Run",
+    "Python.day15.executor": "Run",
     "Python.day2.executor": "Run",
     "Python.day3.executor": "Run",
     "Python.day4.executor": "Run",
@@ -70,34 +71,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.day14">
-    <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProjectIDC" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/day10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.day15">
     <configuration name="day11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -187,6 +165,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectIDC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -212,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day15" />
         <item itemvalue="Python.day14" />
         <item itemvalue="Python.day13" />
         <item itemvalue="Python.day12" />
         <item itemvalue="Python.day11" />
-        <item itemvalue="Python.day10" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748525371297</updated>
       <workItem from="1749895440911" duration="2398000" />
-      <workItem from="1749898151254" duration="86000" />
+      <workItem from="1749898151254" duration="6866000" />
     </task>
     <task id="LOCAL-00001" summary="commiting day 7 file">
       <option name="closed" value="true" />
@@ -295,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749505140687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 14 - Recursive functions - Calculate factorial recursively">
+      <option name="closed" value="true" />
+      <created>1749898426875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749898426875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +328,8 @@
     <MESSAGE value="commiting day 10 file - Exception Handling" />
     <MESSAGE value="commiting day 11 file - Dates and Time - Experience Calculator." />
     <MESSAGE value="update workspace and changelist for day 12 - regular expressions - validate gmail address" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace and changelist for day 12 - regular expressions - validate gmail address" />
+    <MESSAGE value="day 14 - Recursive functions - Calculate factorial recursively" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 14 - Recursive functions - Calculate factorial recursively" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,5 +341,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProjectIDC$day15.coverage" NAME="day15 Coverage Results" MODIFIED="1749907333641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
