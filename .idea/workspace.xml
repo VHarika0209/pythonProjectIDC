@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="day 20 - Networking with Python&#10; - Fetch and display a webpage’s content">
-      <change afterPath="$PROJECT_DIR$/day21.py" afterDir="false" />
+    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="day 21 - Web Scraping&#10; -  Scrape headlines from a news site">
+      <change afterPath="$PROJECT_DIR$/day22/day22.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Python.day19.executor": "Run",
     "Python.day2.executor": "Run",
     "Python.day21.executor": "Run",
+    "Python.day22.executor": "Run",
     "Python.day3.executor": "Run",
     "Python.day4.executor": "Run",
     "Python.day5.executor": "Run",
@@ -87,30 +88,7 @@
       <recent name="C:\Users\hp\PycharmProjects\pythonProjectIDC\day17" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day21">
-    <configuration name="day17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProjectIDC" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/day17.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.day22">
     <configuration name="day18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -180,6 +158,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day22" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectIDC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day22" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day22/day22.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProjectIDC" />
       <option name="ENV_FILES" value="" />
@@ -228,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day22" />
         <item itemvalue="Python.day21" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.day19" />
         <item itemvalue="Python.day18" />
-        <item itemvalue="Python.day17" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +262,8 @@
       <workItem from="1750149566215" duration="3511000" />
       <workItem from="1750231607141" duration="3143000" />
       <workItem from="1750275476423" duration="1751000" />
-      <workItem from="1750444372123" duration="1798000" />
+      <workItem from="1750444372123" duration="2579000" />
+      <workItem from="1750515744162" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="commiting day 7 file">
       <option name="closed" value="true" />
@@ -375,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750277139301</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day 21 - Web Scraping&#10; -  Scrape headlines from a news site">
+      <option name="closed" value="true" />
+      <created>1750446448951</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750446448951</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +416,8 @@
     <MESSAGE value="day 18 - Metaclasses - Enforce a naming convention with a metaclass" />
     <MESSAGE value="day 19 -  threading, multiprocessing, concurrency&#10; - Download multiple files concurrently using threads" />
     <MESSAGE value="day 20 - Networking with Python&#10; - Fetch and display a webpage’s content" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 20 - Networking with Python&#10; - Fetch and display a webpage’s content" />
+    <MESSAGE value="day 21 - Web Scraping&#10; -  Scrape headlines from a news site" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 21 - Web Scraping&#10; -  Scrape headlines from a news site" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,11 +431,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProjectIDC$day22.coverage" NAME="day22 Coverage Results" MODIFIED="1750523193958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$server.coverage" NAME="server Coverage Results" MODIFIED="1750232257671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$day18.coverage" NAME="day18 Coverage Results" MODIFIED="1750101519528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$day16.coverage" NAME="day16 Coverage Results" MODIFIED="1749932448973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$day19.coverage" NAME="day19 Coverage Results" MODIFIED="1750151703721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19" />
-    <SUITE FILE_PATH="coverage/pythonProjectIDC$day21.coverage" NAME="day21 Coverage Results" MODIFIED="1750446141804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjectIDC$day21.coverage" NAME="day21 Coverage Results" MODIFIED="1750446198746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$day15.coverage" NAME="day15 Coverage Results" MODIFIED="1749907333641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProjectIDC$day17.coverage" NAME="day17 Coverage Results" MODIFIED="1750058623673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
   </component>
