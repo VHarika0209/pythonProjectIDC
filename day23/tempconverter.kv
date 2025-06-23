@@ -1,0 +1,28 @@
+<TempConverter>:
+    orientation: "vertical"
+    padding: 20
+    spacing: 10
+
+    TextInput:
+        id: temp_input
+        hint_text: "Enter temperature"
+        multiline: False
+        input_filter: 'float'
+
+    BoxLayout:
+        size_hint_y: None
+        height: "40dp"
+        spacing: 10
+
+        Button:
+            text: "To Celsius"
+            on_press: root.convert_temp(temp_input.text, "to_celsius")
+
+        Button:
+            text: "To Fahrenheit"
+            on_press: root.convert_temp(temp_input.text, "to_fahrenheit")
+
+    Label:
+        text: root.result
+        font_size: "20sp"
+        color: 0.2, 0.6, 0.2, 1
