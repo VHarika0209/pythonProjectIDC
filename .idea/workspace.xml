@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="day 23 - Building GUIs with Kivy&#10; - Convert the temperature converter CLI tool into a GUI tool">
-      <change afterPath="$PROJECT_DIR$/day24.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProjectIDC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjectIDC.iml" afterDir="false" />
+    <list default="true" id="67c1cb9f-3f2f-41da-93df-6b487d82e6aa" name="Changes" comment="day 24 and 25- Data classes and Pydantic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +274,7 @@
       <workItem from="1750515744162" duration="3089000" />
       <workItem from="1750678673934" duration="1500000" />
       <workItem from="1750681375150" duration="2549000" />
-      <workItem from="1750683946660" duration="10546000" />
+      <workItem from="1750683946660" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="commiting day 7 file">
       <option name="closed" value="true" />
@@ -409,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750688580811</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day 24 and 25- Data classes and Pydantic">
+      <option name="closed" value="true" />
+      <created>1750797053617</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750797053617</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +445,8 @@
     <MESSAGE value="day 20 - Networking with Python&#10; - Fetch and display a webpage’s content" />
     <MESSAGE value="day 21 - Web Scraping&#10; -  Scrape headlines from a news site" />
     <MESSAGE value="day 23 - Building GUIs with Kivy&#10; - Convert the temperature converter CLI tool into a GUI tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 23 - Building GUIs with Kivy&#10; - Convert the temperature converter CLI tool into a GUI tool" />
+    <MESSAGE value="day 24 and 25- Data classes and Pydantic" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 24 and 25- Data classes and Pydantic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
